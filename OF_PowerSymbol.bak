@@ -561,7 +561,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "-15v_0_1"
+		(symbol "-15v_1_1"
 			(circle
 				(center 0 1.8796)
 				(radius 0.5611)
@@ -570,11 +570,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
-		)
-		(symbol "-15v_1_1"
 			(pin power_in line
 				(at 0 -1.27 90)
 				(length 2.54)
@@ -1141,6 +1139,91 @@
 				(at 0 -1.27 90)
 				(length 2.54)
 				(name "+VCC_PWM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "VDD"
+		(power)
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 4.7244 3.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VDD_0_1"
+			(circle
+				(center 0 1.8796)
+				(radius 0.5611)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VDD_1_1"
+			(pin power_in line
+				(at 0 -1.27 90)
+				(length 2.54)
+				(name "+VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
